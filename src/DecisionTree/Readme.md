@@ -16,3 +16,8 @@ subsets that are as homogeneous as posssible with respect to the target variable
 here is an example of a Decision Tree model that is used to train the [Iris dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html):
 
 ![Decision Tree](image/iris_tree.PNG)
+
+### __Key Concepts__
+1. __Nodes__   : Points where the data is split 
+2. __Branches__: Possible outcomes of a decision
+3. __Leaves__  : Final decision   
