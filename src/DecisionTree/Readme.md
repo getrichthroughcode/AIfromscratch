@@ -15,4 +15,4 @@ subsets that are as homogeneous as posssible with respect to the target variable
 
 here is an example of a Decision Tree model that is used to train the [Iris dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html):
 
-[Decision Tree](image/iris_tree.PNG)
+![Decision Tree](image/iris_tree.PNG)
