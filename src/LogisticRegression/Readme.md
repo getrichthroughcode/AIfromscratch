@@ -10,9 +10,16 @@
  - **Linearity of the logit** :
     The relationship between the independant variables (`features`) and the log-odds of the dependant variable (`logit`) is linear.
      Logistic regression models the probability of the outcome as a function of the linear combination of the features. Mathematically, it assumes:
-    $$
-    \text{logit}(P(y=1|X)) = \log\left(\frac{P(y=1|X)}{1 - P(y=1|X)}\right) = \beta_0 + \beta_1X_1 + \beta_2X_2 + \dots + \beta_nX_n
-    $$
+   $$
+    Logistic formula here 
+   $$ 
+This means that the log-odds of the outcome are linearly related to the predictor variables.
+- **Independant of Errors**
+The `observations`hence the errors are independant of each other.
+**Logistic Regression** assumes that the outcome of one observation does not influence the outcome for another. This is particularly important in `time-series`data or `clustered` data (like repeated measurements on the same subjects). 
+- **No Multicolinearity**
+The independant variable are not highly correlated with each other. 
+-
 
-    This means that the log-odds of the outcome are linearly related to the predictor variables.
+
 
